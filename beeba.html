@@ -16,9 +16,15 @@
 <div class="jumbotron jumbo">
     <h1>I LOVE YOU BEEBA</h1>
     <p class="lead">I Love more and More </p>
-    <p><h3 style:"color:green">Please Keep Clicking Me:</h3> <input class="btn btn-danger btn-lg" value="I LOVE YOU Times 10000"onclick="foo(this)" type="button"/></p>
+    <p><input class="btn btn-danger btn-lg" value="I LOVE YOU Times 10000"onclick="foo(this)" type="button"/></p>
 </div>
-
+<h1 style="text-align:center">Here is Surprise For You</h1>
+<div class="jumbotron jumbo" id="surp" hidden>
+        
+        <img src="BeebaAsif.jpeg" style="width:30%;height:auto"/>
+        
+    </div>
+    <p><input style="text-align:center" class="btn btn-success btn-lg" value="Surprise"onclick="foo1()" type="button"/></p>
   </body>
   <script>
       var i=0;
@@ -27,4 +33,8 @@
 
     e.value=e.value+"000";
   }
+  function foo1(){
+
+document.getElementById("surp").hidden=false;
+}
   </script>
